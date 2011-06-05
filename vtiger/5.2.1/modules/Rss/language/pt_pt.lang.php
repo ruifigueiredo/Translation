@@ -13,23 +13,47 @@
  * Contributor(s): ______________________________________.
  ********************************************************************************/
 /*********************************************************************************
- * $Header: /advent/projects/wesat/vtiger_crm/sugarcrm/modules/Administration/language/en_us.lang.php,v 1.3 2005/01/25 05:54:44 jack Exp $
- * Description:  Defines the English language pack for the Account module.
- ********************************************************************************/
-/*********************************************************************************
  * $Header$
  * Description:  Defines the Portuguese Language Pack
  * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
  * All Rights Reserved.
  * Contributor(s): Rui Figueiredo - ( rui.figueiredo@gmail.com )
  ********************************************************************************/
- 
+
 $mod_strings = Array(
-'LBL_MODULE_NAME'=>'Administração',
-'LBL_MODULE_TITLE'=>'Administração: Início',
+'LBL_MODULE_NAME'=>'RSS',
+'LBL_MODULE_TITLE'=>'RSS: Início',
 
-'LBL_NEW_FORM_TITLE'=>'Nova Conta',
-'ERR_DELETE_RECORD'=>"Indique um numero de registo para apagar a Conta.",
+'LBL_NEW_RSS_ENTRY'=>'Nova Feed RSS:',
+'LBL_SEARCH_RSS'=>'Pesquisar Título:',
+'LBL_NEW_RSS_BUTTON'=>'Adicionar',
+
+'LBL_STARRED_RSS'=>'Starred Feeds',
+'LBL_POP_CRM_RSS'=>'Popular CRM Related Feeds',
+'LBL_ALL_RSS_FEEDS'=>'Todas as Feeds RSS',
+'LBL_VTIGER_RSS_READER'=>'Leitor de RSS',
+
+'LBL_MORE'=>'Mais...',
+'LBL_SUBJECT'=>'Assunto',
+'LBL_SENDER'=>'Enviado Por',
+'LBL_CATEGORY'=>'Categoria :',
+'LBL_FEED'=>'Feed :',
+'LBL_FEED_SOURCES'=> 'Fonte de Feed',
+'LBL_ADD_RSS_FEED'=>'Adicionar Feed RSS',
+'LBL_DELETE_BUTTON'=>'Apagar',
+'LBL_SET_DEFAULT_BUTTON'=>'Definir como Padrão',
+'LBL_FEEDS_LIST'=>'Feeds list from :',
+'LBL_ERROR_MSG'=>'No RSS Feeds are selected or Your Proxy Settings is not Proper',
+'LBL_REGRET_MSG'=>'Sorry: It\'s not possible to reach RSS URL',
+
+'UNABLE_TO_SAVE'=>'Não foi possivel gravar o Url do Feed RSS',
+
+// Added/Updated for vtiger CRM 5.0.4
+'NOT_A_VALID'=>'Not a valid RSS Feed or Your Proxy Settings is not Proper',
+
+// Added after 5.0.4 GA
+'INVALID_RSS_URL' => 'Não é um Url RSS válido',
+'UNABLE_TO_SAVE' => 'Não foi possivel gravar o Url',
+
 );
-
 ?>

@@ -13,23 +13,15 @@
  * Contributor(s): ______________________________________.
  ********************************************************************************/
 /*********************************************************************************
- * $Header: /advent/projects/wesat/vtiger_crm/sugarcrm/modules/Administration/language/en_us.lang.php,v 1.3 2005/01/25 05:54:44 jack Exp $
- * Description:  Defines the English language pack for the Account module.
- ********************************************************************************/
-/*********************************************************************************
  * $Header$
  * Description:  Defines the Portuguese Language Pack
  * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
  * All Rights Reserved.
  * Contributor(s): Rui Figueiredo - ( rui.figueiredo@gmail.com )
  ********************************************************************************/
- 
-$mod_strings = Array(
-'LBL_MODULE_NAME'=>'Administração',
-'LBL_MODULE_TITLE'=>'Administração: Início',
 
-'LBL_NEW_FORM_TITLE'=>'Nova Conta',
-'ERR_DELETE_RECORD'=>"Indique um numero de registo para apagar a Conta.",
+$mod_strings = Array(
+'LBL_SYSTEM_CONFIG'=>'Configuração do Sistema',
 );
 
 ?>
